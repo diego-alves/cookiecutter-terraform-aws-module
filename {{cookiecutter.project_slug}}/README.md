@@ -8,7 +8,7 @@ For the basic usage you can include as follows:
 
 ```hcl
 module "name" {
-  source  = "{{cookiecutter.registry_user}}/{{cookiecutter.project_slug}}"
+  source  = "diego-alves/{{cookiecutter.project_name.lower().replace(" ", "_")}}/aws"
   version = "0.0.1"
 }
 ```
