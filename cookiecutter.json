@@ -1,4 +1,4 @@
 {
-  "project_name": "My Module",
-  "project_slug": "terraform_aws_{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}"
+  "project_name": "Module Name",
+  "project_slug": "terraform-aws-{{ cookiecutter.project_name.lower().replace(' ', '-') }}"
 }

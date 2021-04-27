@@ -8,7 +8,7 @@ For the basic usage you can include as follows:
 
 ```hcl
 module "name" {
-  source  = "diego-alves/{{cookiecutter.project_name.lower().replace(" ", "_")}}/aws"
+  source  = "diego-alves/{{cookiecutter.project_name.lower().replace(" ", "-")}}/aws"
   version = "0.0.1"
 }
 ```
