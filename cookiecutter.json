@@ -1,5 +1,4 @@
 {
-  "project_name": "Terraform AWS My Module"
-
-  "project_slug": "terraf{{cookiecutter.project_name.pghusername.lower{{cookiecut().replace(' ', '_')wer().replace(' ', '_')}}
+  "project_name": "My Module",
+  "project_slug": "terraform_aws_{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}"
 }
