@@ -1,4 +1,5 @@
 {
   "project_name": "Module Name",
-  "project_slug": "terraform-aws-{{ cookiecutter.project_name.lower().replace(' ', '-') }}"
+  "project_slug": "terraform-aws-{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+  "github_user": "diego-alves"
 }

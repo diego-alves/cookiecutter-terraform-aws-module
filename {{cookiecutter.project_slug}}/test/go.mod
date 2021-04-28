@@ -1,4 +1,4 @@
-module github.com/diego-alves/cokiecutter-terraform-aws-module
+module github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_slug}}/test
 
 go 1.16
 
