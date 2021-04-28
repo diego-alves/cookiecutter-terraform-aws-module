@@ -28,6 +28,7 @@ func TestRootExample(t *testing.T) {
 	terraform.InitAndApply(t, terraformOptions)
 
 	output := terraform.Output(t, terraformOptions, "output")
+	terraform.WorkspaceSelectOrNew(t, terraformOptions, "default")
 	outputMap := terraform.OutputMap(t, terraformOptions, "output_map")
 
 	assert.Equal(t, expectedRegion, output)
